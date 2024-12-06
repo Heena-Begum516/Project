@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            justify-content: center;
+        }
+        img{
+            height: 60px;
+            width: 120px;
+        }
+        input{
+            border-color: blue;
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+        }
+        .box{
+            background-color: white;
+            border: 1px solid grey;
+            padding: 50px;
+            margin:30px;
+        }
+    </style>
+</head>
+<body>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/a/aa/LinkedIn_2021.svg">
+    <div class="container">
+        <div class="box">
+            <h2>Sign in</h2>
+            <p>Stay updated on your professional world.</p>
+            <input type="text" required placeholder="Email or phone"><br>
+            <p><input type="text" required placeholder="Password"></p>
+            
+            <a href="https://www.linkedin.com/checkpoint/rp/request-password-reset">Forget Password</a>
+        
+            <p>
+                <input type="checkbox"id="ch"><label for="ch">Keep me logged in</label>
+            </p>
+            <button style="border-radius: 20px; height:40px; width: 250px; background-color: blue; color: white;">Sign in</button>
+            <hr> 
+            <p>By clicking Continue, you agree to LinkedIn’s <a href="https://www.linkedin.com/legal/user-agreement">User Agreement</a>,<br><a href="https://www.linkedin.com/legal/privacy-policy">Privacy Policy</a>, and <a href="https://www.linkedin.com/legal/cookie-policy">Cookie Policy.</a></p>
+            <button style="border-radius: 20px; height:40px; width: 250px;">Continue with Google</button><br>
+            <p><button style="border-radius: 20px; height:40px; width: 250px;">Continue with Apple</button></p>
+        </div>
+    </div>
+
+</body>
+</html>
